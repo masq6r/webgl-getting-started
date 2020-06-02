@@ -1,14 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>webgl_vertex_buffer</RootNamespace>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="main-page.fs" />
+    <ProjectReference Include="..\webgl-fable-bindings\webgl-fable-bindings.fsproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\webgl-fable-bindings\webgl-fable-bindings.fsproj" />
+    <Compile Include="main-page.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

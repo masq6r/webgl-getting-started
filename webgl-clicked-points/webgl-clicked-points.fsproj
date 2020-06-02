@@ -2,6 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>webgl_clicked_points</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main-page.fs" />

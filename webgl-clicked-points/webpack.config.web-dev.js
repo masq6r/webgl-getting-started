@@ -10,7 +10,7 @@ function resolve(filePath) {
 
 module.exports = {
   entry: {
-    webgl: resolve('webgl.fsproj'),
+    webgl: resolve('webgl-clicked-points.fsproj'),
   },
   output: {
     filename: '[name].bundle.js',
