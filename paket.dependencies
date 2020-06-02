@@ -1,0 +1,23 @@
+storage: none
+source https://api.nuget.org/v3/index.json
+
+nuget Fable.Core
+nuget Fable.React
+nuget Fable.Fetch
+nuget Fable.Elmish
+nuget Fable.Promise
+nuget Fable.Electron
+nuget Fable.Elmish.HMR
+nuget Fable.Browser.Dom
+nuget Fable.Elmish.React
+nuget Fable.Elmish.Debugger
+nuget Hopac
+nuget log4net
+nuget Giraffe
+nuget MySql.Data
+nuget FSharp.Data
+nuget TaskBuilder.fs
+nuget Newtonsoft.Json
+nuget Expecto
+nuget Expecto.FsCheck
+nuget Expecto.Hopac

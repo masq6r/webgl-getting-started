@@ -1,0 +1,3 @@
+[submodule "webgl-fable-bindings"]
+	path = webgl-fable-bindings
+	url = git@github.com:masq6r/webgl-fable-bindings

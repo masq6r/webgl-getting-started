@@ -1,0 +1,7 @@
+bin/
+obj/
+.vscode/
+paket-files/
+node_modules/
+.fable/
+.ionide/
