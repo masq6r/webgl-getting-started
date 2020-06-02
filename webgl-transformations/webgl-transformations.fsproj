@@ -5,6 +5,7 @@
     <RootNamespace>webgl_transformations</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="gl-matrix.fs" />
     <Compile Include="main-page.fs" />
   </ItemGroup>
   <ItemGroup>

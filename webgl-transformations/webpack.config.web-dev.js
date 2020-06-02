@@ -10,7 +10,7 @@ function resolve(filePath) {
 
 module.exports = {
   entry: {
-    webgl: resolve('webgl-vertex-buffer.fsproj'),
+    webgl: resolve('webgl-transformations.fsproj'),
   },
   output: {
     filename: '[name].bundle.js',
